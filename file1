@@ -1,0 +1,35 @@
+
+R version 4.2.0 (2022-04-22 ucrt) -- "Vigorous Calisthenics"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> a< 10
+Error: object 'a' not found
+> b < 20
+Error: object 'b' not found
+> c=a+b
+Error: object 'a' not found
+> print(c)
+function (...)  .Primitive("c")
+> a<- 10
+> b<-20
+> print("result is",a+b)
+Error in print.default("result is", a + b) : invalid printing digits 30
+> myString <- "Hello, World!"
+> print ( myString)
+[1] "Hello, World!"
+> 
